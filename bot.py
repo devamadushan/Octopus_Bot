@@ -8,6 +8,7 @@ import discord
 from discord.ext import commands
 from discord import Button, ButtonStyle
 from api import API
+from key import token
 
 
 intents = discord.Intents.default()
@@ -223,4 +224,4 @@ async def Ecolab(ctx, numEcolab :int = None, cellule:str = None ,numCell :int = 
 
 
 
-bot.run("MTIwMDQ0OTQ4MzAyNTE2NjQ0Ng.GxX85c.Dd2U7kN6iKs5WhFyqlMQ9BKg4aFb8Qua32PQ-k")
+bot.run(token)
