@@ -9,6 +9,10 @@ import random
 
 ################################################################################################################################### # # #
 
+
+#Autor : Deva
+
+
                                         ##Fake params used when the program can't query the API
 ecolabs = {
 
@@ -140,7 +144,8 @@ class Api():
 
 
 
+
+
 API = Api()
-# test = API.get_ecolab(2,"2")
-# print(round(test["temperature_reprise"]))
+
     

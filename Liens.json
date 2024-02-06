@@ -1,0 +1,50 @@
+{
+    "liens communs": {
+        "flexbox": {
+            "accueil" : "http://10.118.10.23:5500/",
+            "inscription" : "http://10.118.10.23:5500/inscription",
+            "connexion" : "http://10.118.10.23:5500/connexion"
+        },
+
+        "ResponsiveImg": {
+            "accueil" : "http://10.118.10.23:4000/",
+            "inscription" : "http://10.118.10.23:4000/inscription",
+            "connexion" : "http://10.118.10.23:4000/connexion",
+            "detail" : "Cliquer sur une cellule pour voir les détails"
+        }
+    },
+
+    "liens communs admin": {
+        "information" : "Liens accessible seulement par un utilisateur connecté en ADMIN ",
+        "flexbox": {
+            "accueil" : "http://10.118.10.23:5500/",
+            "inscription" : "http://10.118.10.23:5500/inscription",
+            "connexion" : "http://10.118.10.23:5500/connexion",
+            "experiences" : "http://10.118.10.23:5500/",
+            "edit experience" : "Cliquer sur modifier dans experiences",
+            "add experience" : "http://10.118.10.23:5500/add-experiences",
+            "utilisateurs" : "http://10.118.10.23:5500/utilisateurs",
+            "edit role" : "Cliquer sur modifier dans utilisateurs",
+            "detail" : "Cliquer sur une cellule pour voir les détails"
+        },
+        "ResponsiveImg": {
+            "accueil" : "http://10.118.10.23:4000/admin",
+            "inscription" : "http://10.118.10.23:4000/inscription",
+            "connexion" : "http://10.118.10.23:4000/experiences",
+            "experiences" : "http://10.118.10.23:5500/",
+            "edit experience" : "Cliquer sur modifier dans experiences",
+            "add experience" : "http://10.118.10.23:5500/add-experiences",
+            "utilisateurs" : "http://10.118.10.23:4000/utilisateurs",
+            "edit role" : "Cliquer sur modifier dans utilisateurs",
+            "detail" : "Cliquer sur une cellule pour voir les détails"
+        }
+    },
+
+    "CNRS": {
+        "CNRS" : "https://www.cnrs.fr/fr",
+        "Facebook" : "https://fr-fr.facebook.com/cnrs.fr/",
+        "Twitter" : "https://twitter.com/cnrs?lang=fr%20",
+        "Instagram" : "https://www.instagram.com/cnrs/",
+        "Youtube" : "https://www.youtube.com/@CNRS"
+    }
+}
