@@ -144,10 +144,10 @@ async def on_ready():
 
                                                     #Delete the specified number of messeges your want when you type ("prefix" clear)
     
-# @bot.command(name="Clear",aliases=["supprime","efface","Efface","Supprimer","delete", "Delete","clear","supprimer"], help ="Efface le nombre de messages souhaité... EXEMPLE: (supprime 3)")
-# async def clear(ctx, nombre: int = 1):
-#     async for message in ctx.channel.history(limit=nombre +1):
-#         await message.delete()
+@bot.command(name="Clear",aliases=["supprime","efface","Efface","Supprimer","delete", "Delete","clear",""], help ="Efface le nombre de messages souhaité... EXEMPLE: (supprime 3)")
+async def clear(ctx, nombre: int = 1):
+    async for message in ctx.channel.history(limit=nombre +1):
+        await message.delete()
 
 
 
