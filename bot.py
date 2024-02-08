@@ -153,7 +153,7 @@ async def clear(ctx, nombre: int = 1):
 
                                                                 #Delete All messeges when you type ("prefix" clearAll )
         
-@bot.command(name="clearAll", aliases=["effaceTout", "supprimeTout", "deleteAll", "DeleteAll", "ClearAll","effaceTT"], help="Efface touts les messages... EXEMPLE: (effaceTout)")
+@bot.command(name="clearAll", aliases=["effaceTout", "supprimeTout", "deleteAll", "DeleteAll", "ClearAll","effaceTT","clearall"], help="Efface touts les messages... EXEMPLE: (effaceTout)")
 async def clearAll(ctx):
     async for message in ctx.channel.history():
         await message.delete()
